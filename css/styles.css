@@ -26,10 +26,10 @@ body {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
-  text-transform: uppercase;
   cursor: pointer;
   background-color: var(--accent-color);
   color: #ffffff;
+  border: none;
 }
 
 .modal-btn:hover,
@@ -146,4 +146,46 @@ body {
 .contact-link-color {
   /*color: rgba(255, 255, 255, 0.6);*/
 }
+
+.contact-list-link:hover,
+.contact-list-link:focus {
+  color: var(--accent-color);
+}
 /* ----- END FOOTER ----- */
+
+/* ----- Portfolio ----- */
+/* ----- Main ----- */
+
+.filter-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  color: #212121;
+  border: none;
+}
+
+.filter-btn:hover,
+.filter-btn:focus {
+  background-color: var(--accent-color);
+  color: #ffffff;
+}
+
+.project-name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+
+.project-type {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+/* ----- END Main ----- */
+/* ----- END Portfolio ----- */ ;
