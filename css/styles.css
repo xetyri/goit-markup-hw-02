@@ -1,7 +1,7 @@
 :root {
-  --main-font: "Open Sans", sans-serif;
+  --main-font: "Roboto", sans-serif;
   --secondary-font: "Raleway", sans-serif;
-  --accent-color: #ff6c00;
+  --accent-color: #2196f3;
 }
 
 body {
@@ -19,3 +19,131 @@ body {
 .address {
   font-style: normal;
 }
+
+/* ----- COMPONENTS ----- */
+.modal-btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  cursor: pointer;
+  background-color: var(--accent-color);
+  color: #ffffff;
+}
+
+.modal-btn:hover,
+.modal-btn:focus {
+  background-color: #1d77c0;
+}
+
+.logotype {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.logotype-light-theme {
+  color: #000000;
+}
+
+.logotype-dark-theme {
+  /*color: #ffffff;*/
+}
+
+.logo-Web {
+  color: var(--accent-color);
+}
+
+.description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.suptitle {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+/* ----- END COMPONENTS ----- */
+
+/* ----- HEADER ----- */
+.navigation-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.navigation-link-color {
+  color: #212121;
+}
+
+.navigation-link:hover,
+.navigation-link:focus {
+  color: var(--accent-color);
+}
+
+.tel-link-color {
+  color: #757575;
+}
+/* ----- END HEADER ----- */
+
+/* ----- HERO ----- */
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  /* color: #ffffff; */
+}
+/* ----- END HERO ----- */
+
+/* ----- OUR TEAM ----- */
+.name-team {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.position-team {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+/* ----- END OUR TEAM ----- */
+
+/* ----- FOOTER ----- */
+.contact-list-link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.address-color {
+  /* color: #FFFFFF; */
+}
+
+.contact-link-color {
+  /*color: rgba(255, 255, 255, 0.6);*/
+}
+/* ----- END FOOTER ----- */
