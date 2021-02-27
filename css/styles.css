@@ -21,6 +21,11 @@ body {
 }
 
 /* ----- COMPONENTS ----- */
+.hero,
+.footer {
+  background-color: #2f303a;
+}
+
 .modal-btn {
   font-weight: 700;
   font-size: 16px;
@@ -50,7 +55,7 @@ body {
 }
 
 .logotype-dark-theme {
-  /*color: #ffffff;*/
+  color: #ffffff;
 }
 
 .logo-Web {
@@ -109,7 +114,7 @@ body {
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06em;
-  /* color: #ffffff; */
+  color: #ffffff;
 }
 /* ----- END HERO ----- */
 
@@ -140,11 +145,11 @@ body {
 }
 
 .address-color {
-  /* color: #FFFFFF; */
+  color: #ffffff;
 }
 
 .contact-link-color {
-  /*color: rgba(255, 255, 255, 0.6);*/
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .contact-list-link:hover,
