@@ -8,6 +8,7 @@
   --color-btn: #1d77c0;
   --color-logo: #000000;
   --color-subtext: #757575;
+  --color-team: #f5f4fa;
 }
 
 body {
@@ -105,6 +106,10 @@ body {
   color: var(--color-title);
 }
 
+.nav-link-onclick-color {
+  color: var(--accent-color);
+}
+
 .navigation-link:hover,
 .navigation-link:focus {
   color: var(--accent-color);
@@ -156,6 +161,10 @@ body {
 .contact-list-link:hover,
 .contact-list-link:focus {
   color: var(--accent-color);
+}
+
+.team {
+  background: var(--color-team);
 }
 /* ----- END FOOTER ----- */
 
